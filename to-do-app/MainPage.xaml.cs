@@ -14,5 +14,10 @@ namespace to_do_app
         {
             InitializeComponent();
         }
+
+        private async void Task_Creation(object sender, EventArgs e)
+        {
+            string result = await DisplayPromptAsync("New Task:", "", "Create");
+        }
     }
 }

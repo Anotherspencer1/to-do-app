@@ -19,6 +19,8 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <Button Text="Create New Task"
+                Clicked="Task_Creation"/>
     </StackLayout>
 
 </ContentPage>
